@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Components/Testzustand';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> <br />
+        <Counter/>
      
     </div>
   );
